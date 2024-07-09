@@ -14,8 +14,8 @@ Original file is located at
 from google.colab import userdata
 import os
 
-os.environ['KAGGLE_KEY'] = "6bb9bede2c17aad6726603db6482869b"
-os.environ['KAGGLE_USERNAME'] = "hafidzharridil"
+os.environ['KAGGLE_KEY'] = "fill with kaggle key from kaggle.json"
+os.environ['KAGGLE_USERNAME'] = "username kaggle"
 
 !kaggle datasets download -d techsash/waste-classification-data
 !unzip waste-classification-data.zip
